@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#263238" >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/titled"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Title"
+        android:textColorHint="#FFFFFF"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:id="@+id/food_type"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:hint="Donation Date(dd/mm/yy)"
+            android:textColorHint="#FFFFFF"
+            android:inputType="date"
+            android:id="@+id/donation_date"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColorHint="#FFFFFF"
+            android:hint="Cooked At"
+            android:layout_marginTop="10dp"
+            android:id="@+id/cooked_at"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp">
+
+            <EditText
+                android:id="@+id/servefor"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColorHint="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:hint="Serves For"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/sustaintill"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textColorHint="#FFFFFF"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:hint="Sustains Till" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:hint="Address"
+    android:singleLine="false"
+    android:textColorHint="#FFFFFF"
+    android:layout_weight="2"
+    android:id="@+id/address"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="#FFFFFF"
+        android:text="Retrieve Location"
+        android:background="#009688"
+        android:id="@+id/retrive_location"/>
+
+</LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:background="#C51162"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="15dp"
+        android:text="submit" />
+</RelativeLayout>
+</LinearLayout>

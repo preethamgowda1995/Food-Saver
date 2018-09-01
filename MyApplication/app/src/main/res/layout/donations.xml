@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#81D4FA">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="NGO ACTIVITY"
+        android:background="#C51162"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/ngo_activity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="NGO EVENTs"
+        android:layout_marginBottom="10dp"
+        android:background="#C51162"
+        android:id="@+id/ngo_event"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Donated FOOD"
+        android:layout_marginBottom="10dp"
+        android:background="#C51162"
+        android:id="@+id/food_donars"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Food Saver"
+        android:layout_marginBottom="10dp"
+        android:background="#C51162"
+        android:id="@+id/food_saver"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Zero Waste"
+        android:background="#C51162"
+        android:id="@+id/zero_waste"/>
+
+
+
+</LinearLayout>
